@@ -13,7 +13,7 @@ png("plot4.png",width=480, height=480)
 par(mfrow = c(2, 2))
 plot(x = inputdata$datatime,y = inputdata$Global_active_power,type="n",ylab ="Global Active Power",xlab="" )
 lines(x = inputdata$datatime,y = inputdata$Global_active_power)
-plot(x=inputdata$datatime,y=inputdata$Voltage,type="n",ylab="Vlotage",xlab="datatime")
+plot(x=inputdata$datatime,y=inputdata$Voltage,type="n",ylab="Voltage",xlab="datatime")
 lines(x=inputdata$datatime,y=inputdata$Voltage)
 plot(x = inputdata$datatime,y = inputdata$Sub_metering_1,type="n",ylab ="Energy sub metering",xlab="" )
 legend( x="topright",
